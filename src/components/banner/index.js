@@ -18,7 +18,7 @@ export default function Banner({ children }) {
         </video>
         <div className="absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
           <Container>
-            <div className="w-full h-auto p-4 flex flex-col justify-center items-center gap-2 rounded-md text-white capitalize bg-white inset-0 bg-opacity-10 backdrop-blur-sm">
+            <div className="w-full h-auto p-8 flex flex-col justify-center items-center gap-4 rounded-md text-white capitalize bg-white inset-0 bg-opacity-10 backdrop-blur-sm">
               <h2 className="font-semibold text-2xl">Event App/Web</h2>
               <p className="font-normal text-base text-center">
                 Streamline your events with our comprehensive event management

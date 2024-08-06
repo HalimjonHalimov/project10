@@ -39,7 +39,7 @@ export default function Navbar() {
               <li>
                 <Link
                   className="px-4 py-2 text-base font-medium  text-slate-500 hover:text-[#32AB26] transition duration-150 ease-in-out"
-                  to={"/signin"}
+                  to={"/login"}
                 >
                   Login
                 </Link>
