@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import { Banner, Container, SimpleButton } from "../components";
 
 export default function Home() {
   return (
-    <div>
-        <h1>Home pages</h1>
+    <div className="w-full h-auto">
+      <Banner />
+      <div>Cards</div>
     </div>
-  )
+  );
 }
